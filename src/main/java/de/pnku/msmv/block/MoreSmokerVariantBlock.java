@@ -23,13 +23,13 @@ public class MoreSmokerVariantBlock extends SmokerBlock {
     public final String smokerStoneType;
 
     public MoreSmokerVariantBlock(MapColor colour, String smokerWoodType, String smokerStoneType) {
-        super(Properties.ofFullCopy(Blocks.SMOKER).mapColor(colour));
+        super(Properties.copy(Blocks.SMOKER).mapColor(colour));
         this.smokerWoodType = smokerWoodType;
         this.smokerStoneType = smokerStoneType;
     }
 
     public MoreSmokerVariantBlock(MapColor colour, SoundType sound, String smokerWoodType, String smokerStoneType) {
-        super(Properties.ofFullCopy(Blocks.SMOKER).mapColor(colour).sound(sound));
+        super(Properties.copy(Blocks.SMOKER).mapColor(colour).sound(sound));
         this.smokerWoodType = smokerWoodType;
         this.smokerStoneType = smokerStoneType;
     }

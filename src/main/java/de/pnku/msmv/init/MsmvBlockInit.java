@@ -64,7 +64,7 @@ public class MsmvBlockInit {
             registerSmokerBlock(CRIMSON_DEEPSLATE_SMOKER);
             registerSmokerBlock(WARPED_DEEPSLATE_SMOKER);
 
-        MORE_SMOKER_VARIANT_BLOCK_ENTITY = Registry.register(BuiltInRegistries.BLOCK_ENTITY_TYPE, MoreSmokerVariants.asId("more_smoker_variant"), BlockEntityType.Builder.of(MoreSmokerVariantBlockEntity::new, MsmvBlockInit.more_smokers.toArray(Block[]::new)).build());
+        MORE_SMOKER_VARIANT_BLOCK_ENTITY = Registry.register(BuiltInRegistries.BLOCK_ENTITY_TYPE, MoreSmokerVariants.asId("more_smoker_variant"), BlockEntityType.Builder.of(MoreSmokerVariantBlockEntity::new, MsmvBlockInit.more_smokers.toArray(Block[]::new)).build(null));
 
     }
 
@@ -80,7 +80,7 @@ public class MsmvBlockInit {
         registerSmokerBlock(CRIMSON_COBBLESTONE_SMOKER);
         registerSmokerBlock(WARPED_COBBLESTONE_SMOKER);
 
-        MORE_SMOKER_VARIANT_BLOCK_ENTITY = Registry.register(BuiltInRegistries.BLOCK_ENTITY_TYPE, MoreSmokerVariants.asId("more_smoker_variant"), BlockEntityType.Builder.of(MoreSmokerVariantBlockEntity::new, MsmvBlockInit.more_smokers.toArray(Block[]::new)).build());
+        MORE_SMOKER_VARIANT_BLOCK_ENTITY = Registry.register(BuiltInRegistries.BLOCK_ENTITY_TYPE, MoreSmokerVariants.asId("more_smoker_variant"), BlockEntityType.Builder.of(MoreSmokerVariantBlockEntity::new, MsmvBlockInit.more_smokers.toArray(Block[]::new)).build(null));
 
     }
 
