@@ -5,7 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:furnace"
+            "items": [ "minecraft:furnace" ]
           }
         ]
       },
@@ -15,7 +15,7 @@
       "conditions": {
         "items": [
           {
-            "items": "#minecraft:birch_logs"
+            "tag": "minecraft:birch_logs"
           }
         ]
       },

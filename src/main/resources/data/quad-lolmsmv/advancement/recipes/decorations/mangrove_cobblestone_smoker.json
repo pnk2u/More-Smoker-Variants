@@ -5,7 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:furnace"
+            "items": [ "minecraft:furnace" ]
           }
         ]
       },
@@ -15,7 +15,7 @@
       "conditions": {
         "items": [
           {
-            "items": "#minecraft:mangrove_logs"
+            "tag": "minecraft:mangrove_logs"
           }
         ]
       },

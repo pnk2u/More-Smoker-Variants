@@ -5,7 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:furnace"
+            "items": [ "minecraft:furnace" ]
           }
         ]
       },
@@ -15,7 +15,7 @@
       "conditions": {
         "items": [
           {
-            "items": "#minecraft:crimson_stems"
+            "tag": "minecraft:crimson_stems"
           }
         ]
       },

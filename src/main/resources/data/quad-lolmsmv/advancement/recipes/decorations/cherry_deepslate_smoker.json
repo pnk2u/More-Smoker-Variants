@@ -13,7 +13,7 @@
       "conditions": {
         "items": [
           {
-            "items": "lolmfv:deepslate_furnace"
+            "items": [ "lolmfv:deepslate_furnace" ]
           }
         ]
       },
@@ -23,7 +23,7 @@
       "conditions": {
         "items": [
           {
-            "items": "#minecraft:cherry_logs"
+            "tag": "minecraft:cherry_logs"
           }
         ]
       },

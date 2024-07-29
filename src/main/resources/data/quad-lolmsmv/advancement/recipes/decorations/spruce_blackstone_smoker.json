@@ -13,7 +13,7 @@
       "conditions": {
         "items": [
           {
-            "items": "lolmfv:blackstone_furnace"
+            "items": [ "lolmfv:blackstone_furnace" ]
           }
         ]
       },
@@ -23,7 +23,7 @@
       "conditions": {
         "items": [
           {
-            "items": "#minecraft:spruce_logs"
+            "tag": "minecraft:spruce_logs"
           }
         ]
       },
