@@ -9,31 +9,32 @@ import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.Item;
 
-import static de.pnku.msmv.init.MsmvItemInit.WARPED_COBBLESTONE_SMOKER_I;
+import static de.pnku.msmv.init.MsmvItemInit.*;
+import static de.pnku.msmv.init.MsmvMfvBlockInit.*;
 
 public class MsmvMfvItemInit {
-    public static final BlockItem BIRCH_BLACKSTONE_SMOKER_I = new BlockItem(MsmvMfvBlockInit.BIRCH_BLACKSTONE_SMOKER, new Item.Properties());
-    public static final BlockItem OAK_BLACKSTONE_SMOKER_I = new BlockItem(MsmvMfvBlockInit.OAK_BLACKSTONE_SMOKER, new Item.Properties());
-    public static final BlockItem DARK_OAK_BLACKSTONE_SMOKER_I = new BlockItem(MsmvMfvBlockInit.DARK_OAK_BLACKSTONE_SMOKER, new Item.Properties());
-    public static final BlockItem SPRUCE_BLACKSTONE_SMOKER_I = new BlockItem(MsmvMfvBlockInit.SPRUCE_BLACKSTONE_SMOKER, new Item.Properties());
-    public static final BlockItem JUNGLE_BLACKSTONE_SMOKER_I = new BlockItem(MsmvMfvBlockInit.JUNGLE_BLACKSTONE_SMOKER, new Item.Properties());
-    public static final BlockItem ACACIA_BLACKSTONE_SMOKER_I = new BlockItem(MsmvMfvBlockInit.ACACIA_BLACKSTONE_SMOKER, new Item.Properties());
-    public static final BlockItem MANGROVE_BLACKSTONE_SMOKER_I = new BlockItem(MsmvMfvBlockInit.MANGROVE_BLACKSTONE_SMOKER, new Item.Properties());
-    public static final BlockItem CHERRY_BLACKSTONE_SMOKER_I = new BlockItem(MsmvMfvBlockInit.CHERRY_BLACKSTONE_SMOKER, new Item.Properties());
-    public static final BlockItem BAMBOO_BLACKSTONE_SMOKER_I = new BlockItem(MsmvMfvBlockInit.BAMBOO_BLACKSTONE_SMOKER, new Item.Properties());
-    public static final BlockItem CRIMSON_BLACKSTONE_SMOKER_I = new BlockItem(MsmvMfvBlockInit.CRIMSON_BLACKSTONE_SMOKER, new Item.Properties());
-    public static final BlockItem WARPED_BLACKSTONE_SMOKER_I = new BlockItem(MsmvMfvBlockInit.WARPED_BLACKSTONE_SMOKER, new Item.Properties());
-    public static final BlockItem BIRCH_DEEPSLATE_SMOKER_I = new BlockItem(MsmvMfvBlockInit.BIRCH_DEEPSLATE_SMOKER, new Item.Properties());
-    public static final BlockItem OAK_DEEPSLATE_SMOKER_I = new BlockItem(MsmvMfvBlockInit.OAK_DEEPSLATE_SMOKER, new Item.Properties());
-    public static final BlockItem DARK_OAK_DEEPSLATE_SMOKER_I = new BlockItem(MsmvMfvBlockInit.DARK_OAK_DEEPSLATE_SMOKER, new Item.Properties());
-    public static final BlockItem SPRUCE_DEEPSLATE_SMOKER_I = new BlockItem(MsmvMfvBlockInit.SPRUCE_DEEPSLATE_SMOKER, new Item.Properties());
-    public static final BlockItem JUNGLE_DEEPSLATE_SMOKER_I = new BlockItem(MsmvMfvBlockInit.JUNGLE_DEEPSLATE_SMOKER, new Item.Properties());
-    public static final BlockItem ACACIA_DEEPSLATE_SMOKER_I = new BlockItem(MsmvMfvBlockInit.ACACIA_DEEPSLATE_SMOKER, new Item.Properties());
-    public static final BlockItem MANGROVE_DEEPSLATE_SMOKER_I = new BlockItem(MsmvMfvBlockInit.MANGROVE_DEEPSLATE_SMOKER, new Item.Properties());
-    public static final BlockItem CHERRY_DEEPSLATE_SMOKER_I = new BlockItem(MsmvMfvBlockInit.CHERRY_DEEPSLATE_SMOKER, new Item.Properties());
-    public static final BlockItem BAMBOO_DEEPSLATE_SMOKER_I = new BlockItem(MsmvMfvBlockInit.BAMBOO_DEEPSLATE_SMOKER, new Item.Properties());
-    public static final BlockItem CRIMSON_DEEPSLATE_SMOKER_I = new BlockItem(MsmvMfvBlockInit.CRIMSON_DEEPSLATE_SMOKER, new Item.Properties());
-    public static final BlockItem WARPED_DEEPSLATE_SMOKER_I = new BlockItem(MsmvMfvBlockInit.WARPED_DEEPSLATE_SMOKER, new Item.Properties());
+    public static final BlockItem BIRCH_BLACKSTONE_SMOKER_I = itemFromBlock(BIRCH_BLACKSTONE_SMOKER);
+    public static final BlockItem OAK_BLACKSTONE_SMOKER_I = itemFromBlock(OAK_BLACKSTONE_SMOKER);
+    public static final BlockItem DARK_OAK_BLACKSTONE_SMOKER_I = itemFromBlock(DARK_OAK_BLACKSTONE_SMOKER);
+    public static final BlockItem SPRUCE_BLACKSTONE_SMOKER_I = itemFromBlock(SPRUCE_BLACKSTONE_SMOKER);
+    public static final BlockItem JUNGLE_BLACKSTONE_SMOKER_I = itemFromBlock(JUNGLE_BLACKSTONE_SMOKER);
+    public static final BlockItem ACACIA_BLACKSTONE_SMOKER_I = itemFromBlock(ACACIA_BLACKSTONE_SMOKER);
+    public static final BlockItem MANGROVE_BLACKSTONE_SMOKER_I = itemFromBlock(MANGROVE_BLACKSTONE_SMOKER);
+    public static final BlockItem CHERRY_BLACKSTONE_SMOKER_I = itemFromBlock(CHERRY_BLACKSTONE_SMOKER);
+    public static final BlockItem BAMBOO_BLACKSTONE_SMOKER_I = itemFromBlock(BAMBOO_BLACKSTONE_SMOKER);
+    public static final BlockItem CRIMSON_BLACKSTONE_SMOKER_I = itemFromBlock(CRIMSON_BLACKSTONE_SMOKER);
+    public static final BlockItem WARPED_BLACKSTONE_SMOKER_I = itemFromBlock(WARPED_BLACKSTONE_SMOKER);
+    public static final BlockItem BIRCH_DEEPSLATE_SMOKER_I = itemFromBlock(BIRCH_DEEPSLATE_SMOKER);
+    public static final BlockItem OAK_DEEPSLATE_SMOKER_I = itemFromBlock(OAK_DEEPSLATE_SMOKER);
+    public static final BlockItem DARK_OAK_DEEPSLATE_SMOKER_I = itemFromBlock(DARK_OAK_DEEPSLATE_SMOKER);
+    public static final BlockItem SPRUCE_DEEPSLATE_SMOKER_I = itemFromBlock(SPRUCE_DEEPSLATE_SMOKER);
+    public static final BlockItem JUNGLE_DEEPSLATE_SMOKER_I = itemFromBlock(JUNGLE_DEEPSLATE_SMOKER);
+    public static final BlockItem ACACIA_DEEPSLATE_SMOKER_I = itemFromBlock(ACACIA_DEEPSLATE_SMOKER);
+    public static final BlockItem MANGROVE_DEEPSLATE_SMOKER_I = itemFromBlock(MANGROVE_DEEPSLATE_SMOKER);
+    public static final BlockItem CHERRY_DEEPSLATE_SMOKER_I = itemFromBlock(CHERRY_DEEPSLATE_SMOKER);
+    public static final BlockItem BAMBOO_DEEPSLATE_SMOKER_I = itemFromBlock(BAMBOO_DEEPSLATE_SMOKER);
+    public static final BlockItem CRIMSON_DEEPSLATE_SMOKER_I = itemFromBlock(CRIMSON_DEEPSLATE_SMOKER);
+    public static final BlockItem WARPED_DEEPSLATE_SMOKER_I = itemFromBlock(WARPED_DEEPSLATE_SMOKER);
 
     public static void registerMfvSmokerItems() {
         registerMfvSmokerItem(BIRCH_BLACKSTONE_SMOKER_I, WARPED_COBBLESTONE_SMOKER_I);

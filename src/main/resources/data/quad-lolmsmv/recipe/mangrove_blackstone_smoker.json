@@ -11,12 +11,8 @@
   "category": "misc",
   "group": "blackstone_smokers",
   "key": {
-    "#": {
-      "tag": "minecraft:mangrove_logs"
-    },
-    "X": {
-      "item": "lolmfv:blackstone_furnace"
-    }
+    "#": "#minecraft:mangrove_logs",
+    "X": "lolmfv:blackstone_furnace"
   },
   "pattern": [
     " # ",

@@ -3,12 +3,8 @@
   "category": "misc",
   "group": "cobblestone_smokers",
   "key": {
-    "#": {
-      "tag": "minecraft:birch_logs"
-    },
-    "X": {
-      "item": "minecraft:furnace"
-    }
+    "#": "#minecraft:birch_logs",
+    "X": "minecraft:furnace"
   },
   "pattern": [
     " # ",

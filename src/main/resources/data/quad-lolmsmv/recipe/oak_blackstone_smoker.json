@@ -11,12 +11,8 @@
   "category": "misc",
   "group": "blackstone_smokers",
   "key": {
-    "#": {
-      "tag": "minecraft:oak_logs"
-    },
-    "X": {
-      "item": "lolmfv:blackstone_furnace"
-    }
+    "#": "#minecraft:oak_logs",
+    "X": "lolmfv:blackstone_furnace"
   },
   "pattern": [
     " # ",

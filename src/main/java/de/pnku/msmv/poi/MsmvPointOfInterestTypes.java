@@ -21,9 +21,9 @@ public class MsmvPointOfInterestTypes {
                 .getPointOfInterestStatesToType();
 
         Holder<PoiType> butcherEntry = BuiltInRegistries.POINT_OF_INTEREST_TYPE
-                .getHolder(PoiTypes.BUTCHER).get();
+                .get(PoiTypes.BUTCHER).get();
 
-        PoiType butcherPoiType = BuiltInRegistries.POINT_OF_INTEREST_TYPE.get(PoiTypes.BUTCHER);
+        PoiType butcherPoiType = BuiltInRegistries.POINT_OF_INTEREST_TYPE.getValue(PoiTypes.BUTCHER);
 
         List<BlockState> butcherBlockStates = new ArrayList<BlockState>(butcherPoiType.matchingStates);
 

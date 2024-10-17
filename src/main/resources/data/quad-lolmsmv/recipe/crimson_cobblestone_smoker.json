@@ -3,12 +3,8 @@
   "category": "misc",
   "group": "cobblestone_smokers",
   "key": {
-    "#": {
-      "tag": "minecraft:crimson_stems"
-    },
-    "X": {
-      "item": "minecraft:furnace"
-    }
+    "#": "#minecraft:crimson_stems",
+    "X": "minecraft:furnace"
   },
   "pattern": [
     " # ",

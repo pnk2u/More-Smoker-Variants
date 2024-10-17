@@ -3,12 +3,8 @@
   "category": "misc",
   "group": "cobblestone_smokers",
   "key": {
-    "#": {
-      "tag": "minecraft:mangrove_logs"
-    },
-    "X": {
-      "item": "minecraft:furnace"
-    }
+    "#": "#minecraft:mangrove_logs",
+    "X": "minecraft:furnace"
   },
   "pattern": [
     " # ",

@@ -1,7 +1,10 @@
 package de.pnku.msmv.block;
 
+import de.pnku.msmv.MoreSmokerVariants;
 import de.pnku.msmv.init.MsmvBlockInit;
 import net.minecraft.core.BlockPos;
+import net.minecraft.core.registries.Registries;
+import net.minecraft.resources.ResourceKey;
 import net.minecraft.stats.Stats;
 import net.minecraft.world.MenuProvider;
 import net.minecraft.world.entity.player.Player;
@@ -23,13 +26,13 @@ public class MoreSmokerVariantBlock extends SmokerBlock {
     public final String smokerStoneType;
 
     public MoreSmokerVariantBlock(MapColor colour, String smokerWoodType, String smokerStoneType) {
-        super(Properties.ofFullCopy(Blocks.SMOKER).mapColor(colour));
+        super(Properties.ofFullCopy(Blocks.SMOKER).mapColor(colour).setId(ResourceKey.create(Registries.BLOCK, MoreSmokerVariants.asId(smokerWoodType + "_" + smokerStoneType + "_smoker"))));
         this.smokerWoodType = smokerWoodType;
         this.smokerStoneType = smokerStoneType;
     }
 
     public MoreSmokerVariantBlock(MapColor colour, SoundType sound, String smokerWoodType, String smokerStoneType) {
-        super(Properties.ofFullCopy(Blocks.SMOKER).mapColor(colour).sound(sound));
+        super(Properties.ofFullCopy(Blocks.SMOKER).mapColor(colour).setId(ResourceKey.create(Registries.BLOCK, MoreSmokerVariants.asId(smokerWoodType + "_" + smokerStoneType + "_smoker"))).sound(sound));
         this.smokerWoodType = smokerWoodType;
         this.smokerStoneType = smokerStoneType;
     }

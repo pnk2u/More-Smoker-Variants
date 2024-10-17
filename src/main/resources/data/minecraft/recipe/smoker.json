@@ -11,12 +11,8 @@
   "category": "misc",
   "group": "cobblestone_smokers",
   "key": {
-    "#": {
-      "tag": "minecraft:oak_logs"
-    },
-    "X": {
-      "item": "minecraft:furnace"
-    }
+    "#": "#minecraft:oak_logs",
+    "X": "minecraft:furnace"
   },
   "pattern": [
     " # ",

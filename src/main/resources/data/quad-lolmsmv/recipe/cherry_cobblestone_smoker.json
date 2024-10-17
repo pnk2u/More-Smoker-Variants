@@ -3,12 +3,8 @@
   "category": "misc",
   "group": "cobblestone_smokers",
   "key": {
-    "#": {
-      "tag": "minecraft:cherry_logs"
-    },
-    "X": {
-      "item": "minecraft:furnace"
-    }
+    "#": "#minecraft:cherry_logs",
+    "X": "minecraft:furnace"
   },
   "pattern": [
     " # ",

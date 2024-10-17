@@ -11,12 +11,8 @@
   "category": "misc",
   "group": "deepslate_smokers",
   "key": {
-    "#": {
-      "tag": "minecraft:oak_logs"
-    },
-    "X": {
-      "item": "lolmfv:deepslate_furnace"
-    }
+    "#": "#minecraft:oak_logs",
+    "X": "lolmfv:deepslate_furnace"
   },
   "pattern": [
     " # ",

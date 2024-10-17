@@ -4,23 +4,36 @@ import de.pnku.msmv.MoreSmokerVariants;
 import de.pnku.msmv.block.MoreSmokerVariantBlock;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.core.registries.BuiltInRegistries;
+import net.minecraft.core.registries.Registries;
+import net.minecraft.resources.ResourceKey;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Items;
 import net.minecraft.core.Registry;
 
+import static de.pnku.msmv.init.MsmvBlockInit.*;
+
 public class MsmvItemInit {
-    public static final BlockItem BIRCH_COBBLESTONE_SMOKER_I = new BlockItem(MsmvBlockInit.BIRCH_COBBLESTONE_SMOKER, new Item.Properties());
-    public static final BlockItem DARK_OAK_COBBLESTONE_SMOKER_I = new BlockItem(MsmvBlockInit.DARK_OAK_COBBLESTONE_SMOKER, new Item.Properties());
-    public static final BlockItem SPRUCE_COBBLESTONE_SMOKER_I = new BlockItem(MsmvBlockInit.SPRUCE_COBBLESTONE_SMOKER, new Item.Properties());
-    public static final BlockItem JUNGLE_COBBLESTONE_SMOKER_I = new BlockItem(MsmvBlockInit.JUNGLE_COBBLESTONE_SMOKER, new Item.Properties());
-    public static final BlockItem ACACIA_COBBLESTONE_SMOKER_I = new BlockItem(MsmvBlockInit.ACACIA_COBBLESTONE_SMOKER, new Item.Properties());
-    public static final BlockItem MANGROVE_COBBLESTONE_SMOKER_I = new BlockItem(MsmvBlockInit.MANGROVE_COBBLESTONE_SMOKER, new Item.Properties());
-    public static final BlockItem CHERRY_COBBLESTONE_SMOKER_I = new BlockItem(MsmvBlockInit.CHERRY_COBBLESTONE_SMOKER, new Item.Properties());
-    public static final BlockItem BAMBOO_COBBLESTONE_SMOKER_I = new BlockItem(MsmvBlockInit.BAMBOO_COBBLESTONE_SMOKER, new Item.Properties());
-    public static final BlockItem CRIMSON_COBBLESTONE_SMOKER_I = new BlockItem(MsmvBlockInit.CRIMSON_COBBLESTONE_SMOKER, new Item.Properties());
-    public static final BlockItem WARPED_COBBLESTONE_SMOKER_I = new BlockItem(MsmvBlockInit.WARPED_COBBLESTONE_SMOKER, new Item.Properties());
+    public static final BlockItem BIRCH_COBBLESTONE_SMOKER_I = itemFromBlock(BIRCH_COBBLESTONE_SMOKER);
+    public static final BlockItem DARK_OAK_COBBLESTONE_SMOKER_I = itemFromBlock(DARK_OAK_COBBLESTONE_SMOKER);
+    public static final BlockItem SPRUCE_COBBLESTONE_SMOKER_I = itemFromBlock(SPRUCE_COBBLESTONE_SMOKER);
+    public static final BlockItem JUNGLE_COBBLESTONE_SMOKER_I = itemFromBlock(JUNGLE_COBBLESTONE_SMOKER);
+    public static final BlockItem ACACIA_COBBLESTONE_SMOKER_I = itemFromBlock(ACACIA_COBBLESTONE_SMOKER);
+    public static final BlockItem MANGROVE_COBBLESTONE_SMOKER_I = itemFromBlock(MANGROVE_COBBLESTONE_SMOKER);
+    public static final BlockItem CHERRY_COBBLESTONE_SMOKER_I = itemFromBlock(CHERRY_COBBLESTONE_SMOKER);
+    public static final BlockItem BAMBOO_COBBLESTONE_SMOKER_I = itemFromBlock(BAMBOO_COBBLESTONE_SMOKER);
+    public static final BlockItem CRIMSON_COBBLESTONE_SMOKER_I = itemFromBlock(CRIMSON_COBBLESTONE_SMOKER);
+    public static final BlockItem WARPED_COBBLESTONE_SMOKER_I = itemFromBlock(WARPED_COBBLESTONE_SMOKER);
+
+    public static BlockItem itemFromBlock(MoreSmokerVariantBlock moreSmokerVariantBlock) {
+        return new BlockItem(moreSmokerVariantBlock, setProperties(moreSmokerVariantBlock));
+    }
+
+    public static Item.Properties setProperties(MoreSmokerVariantBlock moreSmokerVariantBlock) {
+        return new Item.Properties()
+                .setId(ResourceKey.create(Registries.ITEM,BuiltInRegistries.BLOCK.getKey(moreSmokerVariantBlock))).useBlockDescriptionPrefix();
+    }
 
 
     public static void registerSmokerItems() {

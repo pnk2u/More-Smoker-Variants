@@ -3,6 +3,7 @@ package de.pnku.msmv.init;
 import de.pnku.msmv.MoreSmokerVariants;
 import de.pnku.msmv.block.MoreSmokerVariantBlock;
 import de.pnku.msmv.block.MoreSmokerVariantBlockEntity;
+import net.fabricmc.fabric.api.object.builder.v1.block.entity.FabricBlockEntityTypeBuilder;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.core.Registry;
@@ -64,7 +65,11 @@ public class MsmvBlockInit {
             registerSmokerBlock(CRIMSON_DEEPSLATE_SMOKER);
             registerSmokerBlock(WARPED_DEEPSLATE_SMOKER);
 
-        MORE_SMOKER_VARIANT_BLOCK_ENTITY = Registry.register(BuiltInRegistries.BLOCK_ENTITY_TYPE, MoreSmokerVariants.asId("more_smoker_variant"), BlockEntityType.Builder.of(MoreSmokerVariantBlockEntity::new, MsmvBlockInit.more_smokers.toArray(Block[]::new)).build());
+        MORE_SMOKER_VARIANT_BLOCK_ENTITY =
+                Registry.register(BuiltInRegistries.BLOCK_ENTITY_TYPE,
+                        MoreSmokerVariants.asId("more_smoker_variant"),
+                        FabricBlockEntityTypeBuilder.create(MoreSmokerVariantBlockEntity::new, MsmvBlockInit.more_smokers.toArray(Block[]::new))
+                                .build());
 
     }
 
