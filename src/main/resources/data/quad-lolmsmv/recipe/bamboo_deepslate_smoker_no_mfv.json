@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "deepslate_smokers",
+  "key": {
+    "#": "#minecraft:bamboo_blocks",
+    "X": "minecraft:furnace",
+    "S": "minecraft:cobbled_deepslate"
+  },
+  "pattern": [
+    "S#S",
+    "#X#",
+    "S#S"
+  ],
+  "result": {
+    "count": 1,
+    "id": "quad-lolmsmv:bamboo_deepslate_smoker"
+  }
+}

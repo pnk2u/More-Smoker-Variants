@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "blackstone_smokers",
+  "key": {
+    "#": "#minecraft:spruce_logs",
+    "X": "minecraft:furnace",
+    "S": "minecraft:blackstone"
+  },
+  "pattern": [
+    "S#S",
+    "#X#",
+    "S#S"
+  ],
+  "result": {
+    "count": 1,
+    "id": "quad-lolmsmv:spruce_blackstone_smoker"
+  }
+}

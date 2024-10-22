@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "blackstone_smokers",
+  "key": {
+    "#": "#minecraft:acacia_logs",
+    "X": "minecraft:furnace",
+    "S": "minecraft:blackstone"
+  },
+  "pattern": [
+    "S#S",
+    "#X#",
+    "S#S"
+  ],
+  "result": {
+    "count": 1,
+    "id": "quad-lolmsmv:acacia_blackstone_smoker"
+  }
+}

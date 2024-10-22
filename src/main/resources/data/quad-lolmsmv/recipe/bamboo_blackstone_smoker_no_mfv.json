@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "blackstone_smokers",
+  "key": {
+    "#": "#minecraft:bamboo_blocks",
+    "X": "minecraft:furnace",
+    "S": "minecraft:blackstone"
+  },
+  "pattern": [
+    "S#S",
+    "#X#",
+    "S#S"
+  ],
+  "result": {
+    "count": 1,
+    "id": "quad-lolmsmv:bamboo_blackstone_smoker"
+  }
+}
