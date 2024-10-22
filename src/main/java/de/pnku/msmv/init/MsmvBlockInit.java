@@ -85,8 +85,11 @@ public class MsmvBlockInit {
         registerSmokerBlock(CRIMSON_COBBLESTONE_SMOKER);
         registerSmokerBlock(WARPED_COBBLESTONE_SMOKER);
 
-        MORE_SMOKER_VARIANT_BLOCK_ENTITY = Registry.register(BuiltInRegistries.BLOCK_ENTITY_TYPE, MoreSmokerVariants.asId("more_smoker_variant"), BlockEntityType.Builder.of(MoreSmokerVariantBlockEntity::new, MsmvBlockInit.more_smokers.toArray(Block[]::new)).build());
-
+        MORE_SMOKER_VARIANT_BLOCK_ENTITY =
+                Registry.register(BuiltInRegistries.BLOCK_ENTITY_TYPE,
+                        MoreSmokerVariants.asId("more_smoker_variant"),
+                        FabricBlockEntityTypeBuilder.create(MoreSmokerVariantBlockEntity::new, MsmvBlockInit.more_smokers.toArray(Block[]::new))
+                                .build());
     }
 
     private static void registerSmokerBlock(MoreSmokerVariantBlock smoker) {
