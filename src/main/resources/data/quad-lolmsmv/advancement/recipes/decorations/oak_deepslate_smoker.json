@@ -1,19 +1,11 @@
 {
   "parent": "minecraft:recipes/root",
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "lolmfv"
-      ]
-    }
-  ],
   "criteria": {
     "has_furnace": {
       "conditions": {
         "items": [
           {
-            "items": "lolmfv:deepslate_furnace"
+            "items": "#quad-lolmsmv:deepslate_smoker_req"
           }
         ]
       },

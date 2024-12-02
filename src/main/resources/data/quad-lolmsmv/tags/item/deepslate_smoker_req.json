@@ -1,0 +1,9 @@
+{
+  "values": [
+    {
+      "id": "lolmfv:deepslate_furnace",
+      "required": false
+    },
+    "minecraft:cobbled_deepslate"
+  ]
+}

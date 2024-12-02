@@ -1,0 +1,9 @@
+{
+  "values": [
+    {
+      "id": "lolmfv:blackstone_furnace",
+      "required": false
+    },
+    "minecraft:blackstone"
+  ]
+}
