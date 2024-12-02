@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "blackstone_smokers",
+  "key": {
+    "#": "#minecraft:pale_oak_logs",
+    "X": "minecraft:furnace",
+    "S": "minecraft:blackstone"
+  },
+  "pattern": [
+    "S#S",
+    "#X#",
+    "S#S"
+  ],
+  "result": {
+    "count": 1,
+    "id": "quad-lolmsmv:pale_oak_blackstone_smoker"
+  }
+}

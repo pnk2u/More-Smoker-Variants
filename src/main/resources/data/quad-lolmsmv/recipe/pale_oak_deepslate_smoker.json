@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "deepslate_smokers",
+  "key": {
+    "#": "#minecraft:pale_oak_logs",
+    "X": "lolmfv:deepslate_furnace"
+  },
+  "pattern": [
+    " # ",
+    "#X#",
+    " # "
+  ],
+  "result": {
+    "count": 1,
+    "id": "quad-lolmsmv:pale_oak_deepslate_smoker"
+  }
+}

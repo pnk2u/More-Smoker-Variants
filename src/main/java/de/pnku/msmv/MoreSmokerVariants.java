@@ -21,7 +21,7 @@ public class MoreSmokerVariants implements ModInitializer {
             isMfvLoaded = true;
             LOGGER.info("MSMV:\"MFV loaded.\"");
         }
-        isMfvLoaded = true; //To be removed when MFV is updated to 1.21.2
+        isMfvLoaded = true; //To be removed when MFV is updated to 1.21.2+
         if (isMfvLoaded) { MsmvBlockInit.registerSmokerBlocks(); } else { MsmvBlockInit.registerCobblestoneSmokerBlocks();}
         MsmvItemInit.registerSmokerItems();
         if (isMfvLoaded) {    MsmvMfvItemInit.registerMfvSmokerItems();}

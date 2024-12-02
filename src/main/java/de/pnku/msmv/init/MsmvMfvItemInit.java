@@ -16,6 +16,7 @@ public class MsmvMfvItemInit {
     public static final BlockItem BIRCH_BLACKSTONE_SMOKER_I = itemFromBlock(BIRCH_BLACKSTONE_SMOKER);
     public static final BlockItem OAK_BLACKSTONE_SMOKER_I = itemFromBlock(OAK_BLACKSTONE_SMOKER);
     public static final BlockItem DARK_OAK_BLACKSTONE_SMOKER_I = itemFromBlock(DARK_OAK_BLACKSTONE_SMOKER);
+    public static final BlockItem PALE_OAK_BLACKSTONE_SMOKER_I = itemFromBlock(PALE_OAK_BLACKSTONE_SMOKER);
     public static final BlockItem SPRUCE_BLACKSTONE_SMOKER_I = itemFromBlock(SPRUCE_BLACKSTONE_SMOKER);
     public static final BlockItem JUNGLE_BLACKSTONE_SMOKER_I = itemFromBlock(JUNGLE_BLACKSTONE_SMOKER);
     public static final BlockItem ACACIA_BLACKSTONE_SMOKER_I = itemFromBlock(ACACIA_BLACKSTONE_SMOKER);
@@ -27,6 +28,7 @@ public class MsmvMfvItemInit {
     public static final BlockItem BIRCH_DEEPSLATE_SMOKER_I = itemFromBlock(BIRCH_DEEPSLATE_SMOKER);
     public static final BlockItem OAK_DEEPSLATE_SMOKER_I = itemFromBlock(OAK_DEEPSLATE_SMOKER);
     public static final BlockItem DARK_OAK_DEEPSLATE_SMOKER_I = itemFromBlock(DARK_OAK_DEEPSLATE_SMOKER);
+    public static final BlockItem PALE_OAK_DEEPSLATE_SMOKER_I = itemFromBlock(PALE_OAK_DEEPSLATE_SMOKER);
     public static final BlockItem SPRUCE_DEEPSLATE_SMOKER_I = itemFromBlock(SPRUCE_DEEPSLATE_SMOKER);
     public static final BlockItem JUNGLE_DEEPSLATE_SMOKER_I = itemFromBlock(JUNGLE_DEEPSLATE_SMOKER);
     public static final BlockItem ACACIA_DEEPSLATE_SMOKER_I = itemFromBlock(ACACIA_DEEPSLATE_SMOKER);
@@ -40,7 +42,8 @@ public class MsmvMfvItemInit {
         registerMfvSmokerItem(BIRCH_BLACKSTONE_SMOKER_I, WARPED_COBBLESTONE_SMOKER_I);
         registerMfvSmokerItem(OAK_BLACKSTONE_SMOKER_I, BIRCH_BLACKSTONE_SMOKER_I);
         registerMfvSmokerItem(DARK_OAK_BLACKSTONE_SMOKER_I, OAK_BLACKSTONE_SMOKER_I);
-        registerMfvSmokerItem(SPRUCE_BLACKSTONE_SMOKER_I, DARK_OAK_BLACKSTONE_SMOKER_I);
+        registerMfvSmokerItem(PALE_OAK_BLACKSTONE_SMOKER_I, DARK_OAK_BLACKSTONE_SMOKER_I);
+        registerMfvSmokerItem(SPRUCE_BLACKSTONE_SMOKER_I, PALE_OAK_BLACKSTONE_SMOKER_I);
         registerMfvSmokerItem(JUNGLE_BLACKSTONE_SMOKER_I, SPRUCE_BLACKSTONE_SMOKER_I);
         registerMfvSmokerItem(ACACIA_BLACKSTONE_SMOKER_I, JUNGLE_BLACKSTONE_SMOKER_I);
         registerMfvSmokerItem(MANGROVE_BLACKSTONE_SMOKER_I, ACACIA_BLACKSTONE_SMOKER_I);
@@ -51,7 +54,8 @@ public class MsmvMfvItemInit {
         registerMfvSmokerItem(BIRCH_DEEPSLATE_SMOKER_I, WARPED_BLACKSTONE_SMOKER_I);
         registerMfvSmokerItem(OAK_DEEPSLATE_SMOKER_I, BIRCH_DEEPSLATE_SMOKER_I);
         registerMfvSmokerItem(DARK_OAK_DEEPSLATE_SMOKER_I, OAK_DEEPSLATE_SMOKER_I);
-        registerMfvSmokerItem(SPRUCE_DEEPSLATE_SMOKER_I, DARK_OAK_DEEPSLATE_SMOKER_I);
+        registerMfvSmokerItem(PALE_OAK_DEEPSLATE_SMOKER_I, DARK_OAK_DEEPSLATE_SMOKER_I);
+        registerMfvSmokerItem(SPRUCE_DEEPSLATE_SMOKER_I, PALE_OAK_DEEPSLATE_SMOKER_I);
         registerMfvSmokerItem(JUNGLE_DEEPSLATE_SMOKER_I, SPRUCE_DEEPSLATE_SMOKER_I);
         registerMfvSmokerItem(ACACIA_DEEPSLATE_SMOKER_I, JUNGLE_DEEPSLATE_SMOKER_I);
         registerMfvSmokerItem(MANGROVE_DEEPSLATE_SMOKER_I, ACACIA_DEEPSLATE_SMOKER_I);

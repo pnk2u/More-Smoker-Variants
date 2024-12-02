@@ -17,6 +17,7 @@ import static de.pnku.msmv.init.MsmvBlockInit.*;
 public class MsmvItemInit {
     public static final BlockItem BIRCH_COBBLESTONE_SMOKER_I = itemFromBlock(BIRCH_COBBLESTONE_SMOKER);
     public static final BlockItem DARK_OAK_COBBLESTONE_SMOKER_I = itemFromBlock(DARK_OAK_COBBLESTONE_SMOKER);
+    public static final BlockItem PALE_OAK_COBBLESTONE_SMOKER_I = itemFromBlock(PALE_OAK_COBBLESTONE_SMOKER);
     public static final BlockItem SPRUCE_COBBLESTONE_SMOKER_I = itemFromBlock(SPRUCE_COBBLESTONE_SMOKER);
     public static final BlockItem JUNGLE_COBBLESTONE_SMOKER_I = itemFromBlock(JUNGLE_COBBLESTONE_SMOKER);
     public static final BlockItem ACACIA_COBBLESTONE_SMOKER_I = itemFromBlock(ACACIA_COBBLESTONE_SMOKER);
@@ -39,7 +40,8 @@ public class MsmvItemInit {
     public static void registerSmokerItems() {
         registerSmokerItem(BIRCH_COBBLESTONE_SMOKER_I, Items.SMOKER);
         registerSmokerItem(DARK_OAK_COBBLESTONE_SMOKER_I, BIRCH_COBBLESTONE_SMOKER_I);
-        registerSmokerItem(SPRUCE_COBBLESTONE_SMOKER_I, DARK_OAK_COBBLESTONE_SMOKER_I);
+        registerSmokerItem(PALE_OAK_COBBLESTONE_SMOKER_I, DARK_OAK_COBBLESTONE_SMOKER_I);
+        registerSmokerItem(SPRUCE_COBBLESTONE_SMOKER_I, PALE_OAK_COBBLESTONE_SMOKER_I);
         registerSmokerItem(JUNGLE_COBBLESTONE_SMOKER_I, SPRUCE_COBBLESTONE_SMOKER_I);
         registerSmokerItem(ACACIA_COBBLESTONE_SMOKER_I, JUNGLE_COBBLESTONE_SMOKER_I);
         registerSmokerItem(MANGROVE_COBBLESTONE_SMOKER_I, ACACIA_COBBLESTONE_SMOKER_I);

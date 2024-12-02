@@ -17,7 +17,9 @@ import java.util.List;
 import static de.pnku.msmv.init.MsmvMfvBlockInit.*;
 
 public class MsmvBlockInit {
-    public static final MoreSmokerVariantBlock BIRCH_COBBLESTONE_SMOKER = new MoreSmokerVariantBlock(MapColor.SAND, "birch", "cobblestone");public static final MoreSmokerVariantBlock DARK_OAK_COBBLESTONE_SMOKER = new MoreSmokerVariantBlock(MapColor.COLOR_BROWN, "dark_oak", "cobblestone");
+    public static final MoreSmokerVariantBlock BIRCH_COBBLESTONE_SMOKER = new MoreSmokerVariantBlock(MapColor.SAND, "birch", "cobblestone");
+    public static final MoreSmokerVariantBlock DARK_OAK_COBBLESTONE_SMOKER = new MoreSmokerVariantBlock(MapColor.COLOR_BROWN, "dark_oak", "cobblestone");
+    public static final MoreSmokerVariantBlock PALE_OAK_COBBLESTONE_SMOKER = new MoreSmokerVariantBlock(MapColor.QUARTZ, "pale_oak", "cobblestone");
     public static final MoreSmokerVariantBlock SPRUCE_COBBLESTONE_SMOKER = new MoreSmokerVariantBlock(MapColor.PODZOL, "spruce", "cobblestone");
     public static final MoreSmokerVariantBlock JUNGLE_COBBLESTONE_SMOKER = new MoreSmokerVariantBlock(MapColor.DIRT, "jungle", "cobblestone");
     public static final MoreSmokerVariantBlock ACACIA_COBBLESTONE_SMOKER = new MoreSmokerVariantBlock(MapColor.COLOR_ORANGE, "acacia", "cobblestone");
@@ -34,6 +36,7 @@ public class MsmvBlockInit {
     public static void registerSmokerBlocks() {
         registerSmokerBlock(BIRCH_COBBLESTONE_SMOKER);
         registerSmokerBlock(DARK_OAK_COBBLESTONE_SMOKER);
+        registerSmokerBlock(PALE_OAK_COBBLESTONE_SMOKER);
         registerSmokerBlock(SPRUCE_COBBLESTONE_SMOKER);
         registerSmokerBlock(JUNGLE_COBBLESTONE_SMOKER);
         registerSmokerBlock(ACACIA_COBBLESTONE_SMOKER);
@@ -45,6 +48,7 @@ public class MsmvBlockInit {
             registerSmokerBlock(BIRCH_BLACKSTONE_SMOKER);
             registerSmokerBlock(OAK_BLACKSTONE_SMOKER);
             registerSmokerBlock(DARK_OAK_BLACKSTONE_SMOKER);
+            registerSmokerBlock(PALE_OAK_BLACKSTONE_SMOKER);
             registerSmokerBlock(SPRUCE_BLACKSTONE_SMOKER);
             registerSmokerBlock(JUNGLE_BLACKSTONE_SMOKER);
             registerSmokerBlock(ACACIA_BLACKSTONE_SMOKER);
@@ -56,6 +60,7 @@ public class MsmvBlockInit {
             registerSmokerBlock(BIRCH_DEEPSLATE_SMOKER);
             registerSmokerBlock(OAK_DEEPSLATE_SMOKER);
             registerSmokerBlock(DARK_OAK_DEEPSLATE_SMOKER);
+            registerSmokerBlock(PALE_OAK_DEEPSLATE_SMOKER);
             registerSmokerBlock(SPRUCE_DEEPSLATE_SMOKER);
             registerSmokerBlock(JUNGLE_DEEPSLATE_SMOKER);
             registerSmokerBlock(ACACIA_DEEPSLATE_SMOKER);
@@ -76,6 +81,7 @@ public class MsmvBlockInit {
     public static void registerCobblestoneSmokerBlocks() {
         registerSmokerBlock(BIRCH_COBBLESTONE_SMOKER);
         registerSmokerBlock(DARK_OAK_COBBLESTONE_SMOKER);
+        registerSmokerBlock(PALE_OAK_COBBLESTONE_SMOKER);
         registerSmokerBlock(SPRUCE_COBBLESTONE_SMOKER);
         registerSmokerBlock(JUNGLE_COBBLESTONE_SMOKER);
         registerSmokerBlock(ACACIA_COBBLESTONE_SMOKER);
