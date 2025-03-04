@@ -9,6 +9,7 @@ import net.minecraft.world.inventory.SmokerMenu;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.crafting.RecipeType;
 import net.minecraft.world.level.block.entity.AbstractFurnaceBlockEntity;
+import net.minecraft.world.level.block.entity.FuelValues;
 import net.minecraft.world.level.block.state.BlockState;
 import org.jetbrains.annotations.NotNull;
 
@@ -27,8 +28,8 @@ public class MoreSmokerVariantBlockEntity extends AbstractFurnaceBlockEntity {
         return new SmokerMenu(i, inventory, this, this.dataAccess);
     }
 
-    protected int getBurnDuration(ItemStack fuel) {
-        return super.getBurnDuration(fuel) / 2;
+    protected int getBurnDuration(FuelValues fuelValues, ItemStack fuel) {
+        return super.getBurnDuration(fuelValues, fuel) / 2;
     }
 
     protected MoreSmokerVariantBlock getBlock() {
