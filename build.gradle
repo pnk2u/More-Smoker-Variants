@@ -36,9 +36,9 @@ dependencies {
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
 
 	// MFV
-	modCompileOnly "maven.modrinth:more-furnace-variants-lieonlion:${project.mfv_version_id}"
+	// modCompileOnly "maven.modrinth:more-furnace-variants-lieonlion:${project.mfv_version_id}" (Not updated to 1.21.4 yet)
 	modCompileOnly "maven.modrinth:quad:${project.quad_version_id}"
-	modLocalRuntime "maven.modrinth:more-furnace-variants-lieonlion:${project.mfv_version_id}"
+	// modLocalRuntime "maven.modrinth:more-furnace-variants-lieonlion:${project.mfv_version_id}" (Not updated to 1.21.4 yet)
 	modLocalRuntime "maven.modrinth:quad:${project.quad_version_id}"
 }
 
