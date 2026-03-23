@@ -1,3 +1,19 @@
+<a name="1.3.4"></a>
+### 1.3.4:
+- `26.1`: Update to <ins>26.1</ins>
+- Add Japanese translation (Thanks to [@HayaKoh-WeldyAlin](https://www.github.com/HayaKoh-WeldyAlin))
+
+<br></br>
+<sub>License update to [CC-BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) (previously [MIT](https://opensource.org/licenses/MIT))</sub>
+
+<h2><sub><sub><sup><ins>Download 1.3.4 + 1.21(.1)</ins>:</sup>&#x200A;
+<a title="Download (Modrinth):&#10;More Smoker Variants 1.3.4 + 1.21(.1)" href="https://www.modrinth.com/mod/8HxZnUY7/version/QG5iRqXf">
+<img width=26 src="https://img.shields.io/badge/-%20-%23032a?style=flat&logo=modrinth"></a>
+<sup><img width=7 height=10 src="https://raw.githubusercontent.com/pnk2u/resources/main/ModProjects/shared/pres/icon/separator_v.svg"></sup>
+<a title="Download (Curseforge):&#10;1.3.4 + 1.21(.1) - More Smoker Variants" href="https://www.curseforge.com/minecraft/mc-mods/more-smoker-variants/files/7801217">
+<img width=26 src="https://img.shields.io/badge/--%23302a?style=flat&logo=curseforge"></a>
+</sub></sub></h2>
+
 <a name="1.3.3"></a>
 ### 1.3.3:
 - Fix _Mangrove_ **_Blackstone_**, **_Cobblestone_** and **_Deepslate_** **Smoker**s' models
