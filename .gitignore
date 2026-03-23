@@ -42,5 +42,6 @@ replay_*.log
 /.idea/
 /build/
 /run/
-/res/*
-!/res/suggested-with-lolmfv.svg
+/res/
+*_local.*
+[[]*[]]/
