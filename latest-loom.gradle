@@ -1,0 +1,14 @@
+import groovy.xml.XmlSlurper
+
+static def fetchLatestLoom() {
+    def url = "https://maven.fabricmc.net/net/fabricmc/fabric-loom/maven-metadata.xml"
+    try {
+        def metadata = new XmlSlurper().parse(url)
+        return metadata.versioning.latest.text()
+    } catch (Exception e) {
+        throw new GradleException("Failed to fetch $url: ${e.message}")
+    }}
+
+ext.loomVersion = fetchLatestLoom()
+
+println "latest-loom: $loomVersion"
