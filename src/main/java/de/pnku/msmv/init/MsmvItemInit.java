@@ -2,7 +2,7 @@ package de.pnku.msmv.init;
 
 import de.pnku.msmv.MoreSmokerVariants;
 import de.pnku.msmv.block.MoreSmokerVariantBlock;
-import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
+import net.fabricmc.fabric.api.creativetab.v1.CreativeModeTabEvents;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.ResourceKey;
@@ -54,6 +54,6 @@ public class MsmvItemInit {
     private static void registerSmokerItem(BlockItem smoker, Item smokerAfter) {
         Registry.register(BuiltInRegistries.ITEM, MoreSmokerVariants.asId(((MoreSmokerVariantBlock) smoker.getBlock()).smokerWoodType + "_" + ((MoreSmokerVariantBlock) smoker.getBlock()).smokerStoneType + "_smoker"), smoker);
 
-        ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.FUNCTIONAL_BLOCKS).register(entries -> entries.addAfter(smokerAfter, smoker));
+        CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.FUNCTIONAL_BLOCKS).register(entries -> entries.insertAfter(smokerAfter, smoker));
     }
 }
