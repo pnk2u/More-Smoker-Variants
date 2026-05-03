@@ -1,3 +1,15 @@
+<a name="1.3.5"></a>
+### 1.3.5:
+- `1.21.4(-11)`, `26.1`: Fix _**Pale Oak** Smoker_ Variants not being mineable with their correct _Tool_ (_Pickaxes_)
+
+
+<h2><sub><sub><sup><ins>Download 1.3.5 + 26.1</ins>:</sup>&#x200A;
+<a title="Download (Modrinth):&#10;More Smoker Variants 1.3.5 + 26.1" href="https://www.modrinth.com/mod/8HxZnUY7/version/ASijOw8F">
+<img width=26 src="https://img.shields.io/badge/-%20-%23032a?style=flat&logo=modrinth"></a>&#x200A;
+<a title="Download (Curseforge):&#10;1.3.5 + 26.1 - More Smoker Variants" href="https://www.curseforge.com/minecraft/mc-mods/more-smoker-variants/files/8029788">
+<img width=26 src="https://img.shields.io/badge/--%23302a?style=flat&logo=curseforge"></a>
+</sub></sub></h2>
+
 <a name="1.3.4"></a>
 ### 1.3.4:
 - `26.1`: Update to <ins>26.1</ins>
