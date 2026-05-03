@@ -2,6 +2,7 @@
   "replace": false,
   "values": [
     "quad-lolmsmv:dark_oak_cobblestone_smoker",
+    "quad-lolmsmv:pale_oak_cobblestone_smoker",
     "quad-lolmsmv:spruce_cobblestone_smoker",
     "quad-lolmsmv:birch_cobblestone_smoker",
     "quad-lolmsmv:jungle_cobblestone_smoker",
@@ -21,6 +22,10 @@
     },
     {
       "id": "quad-lolmsmv:dark_oak_blackstone_smoker",
+      "required": false
+    },
+    {
+      "id": "quad-lolmsmv:pale_oak_blackstone_smoker",
       "required": false
     },
     {
@@ -57,6 +62,10 @@
     },
     {
       "id": "quad-lolmsmv:dark_oak_deepslate_smoker",
+      "required": false
+    },
+    {
+      "id": "quad-lolmsmv:pale_oak_deepslate_smoker",
       "required": false
     },
     {
